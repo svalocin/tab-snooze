@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Tab 小憩",
+  "description": "右键标签页，快速休眠不需要的标签页，释放浏览器内存。",
+  "version": "1.0.0",
+  "permissions": ["tabs", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Tab 小憩",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}
