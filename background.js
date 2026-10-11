@@ -8,8 +8,12 @@ const SKIP_URL_PREFIXES = [
   "chrome://",
   "chrome-search://",
   "chrome-extension://",
+  "chrome-untrusted://",
+  "devtools://",
   "edge://",
   "brave://",
+  "opera://",
+  "vivaldi://",
   "about:",
   "https://www.google.com/_/chrome/newtab",
 ];
